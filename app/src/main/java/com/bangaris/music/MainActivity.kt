@@ -1,6 +1,6 @@
 package com.bangaris.music
 
-import android.app.Activity
+import androidx.activity.ComponentActivity
 import android.os.Bundle
 import android.content.Intent
 import android.net.Uri
@@ -12,7 +12,7 @@ import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.ui.PlayerView
 
-class MainActivity : Activity() {
+class MainActivity : ComponentActivity() {
 
     private var player: ExoPlayer? = null
     private lateinit var playerView: PlayerView
