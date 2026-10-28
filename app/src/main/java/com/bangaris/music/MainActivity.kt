@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
         }
 
         val title = TextView(this).apply {
-            text = "⚡ ARIS MUSIK PLAYER"
+            text = "ARHE5"
             textSize = 25f
             gravity = Gravity.CENTER
             setTextColor(Color.WHITE)
@@ -57,14 +57,14 @@ class MainActivity : ComponentActivity() {
         }
 
         val subtitle = TextView(this).apply {
-            text = "MUSIC • VIDEO • YOUR LIBRARY"
+            text = "BANG ARIS  •  MUSIC PLAYER"
             textSize = 12f
             gravity = Gravity.CENTER
             setTextColor(Color.rgb(80, 180, 255))
         }
 
         status = TextView(this).apply {
-            text = "Pilih musik atau video dari HP"
+            text = "Temukan musik favoritmu"
             textSize = 14f
             gravity = Gravity.CENTER
             setTextColor(Color.WHITE)
@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
         }
 
         val pickButton = Button(this).apply {
-            text = "＋ PILIH MUSIK / VIDEO"
+            text = "▶  PILIH MEDIA DARI HP"
             setTextColor(Color.WHITE)
             setBackgroundColor(Color.rgb(20, 105, 230))
             setOnClickListener {
@@ -85,7 +85,7 @@ class MainActivity : ComponentActivity() {
         }
 
         val footer = TextView(this).apply {
-            text = "BANG ARIS • MUSIC EXPERIENCE"
+            text = "ARHE5  •  NGEMUSIK BARENG BANG ARIS"
             textSize = 11f
             gravity = Gravity.CENTER
             setTextColor(Color.LTGRAY)
